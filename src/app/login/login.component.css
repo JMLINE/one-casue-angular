@@ -1,0 +1,46 @@
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.body {
+  display: flex;
+  background-color: rgb(255, 255, 200);
+
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container{
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  position: absolute; 
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.login {
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  position: absolute; 
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.contents{
+ margin-top: 20%;
+
+}
+.mat-form-field {
+  font-size: 16px;
+}
+.titleSign {
+  text-align: center;
+}
